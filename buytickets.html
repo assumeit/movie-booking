@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Movie Ticket</title>
+    <link rel="stylesheet" href="C:\Users\ASMIT BASNET\Desktop\movie booking\buycss.css">
+</head>
+
+<body>
+    <header>
+        <h1>Asmit's Theater</h1>
+    </header>
+
+    <section class="movie-details">
+        <h2>Movie Details</h2>
+        <p>Oppenheimer</p>
+        <div class="movie-poster">
+            <img src="C:\Users\ASMIT BASNET\Desktop\movie booking\images\upcoming.webp" alt="Movie Poster">
+        </div>
+
+        <div class="theater-location">
+            <h3>Theater Location</h3>
+            <p>Address: 123 Main St, City, Country</p>
+            <p>Showtime: 8:00 PM</p>
+        </div>
+
+        <div class="movie-price">
+            <h3>Price</h3>
+            <p>$15</p>
+        </div>
+    </section>
+
+    <section class="ticket-form">
+        
+        <h2>Personal Information</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required value="John Doe">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required value="johndoe@example.com">
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required value="123-456-7890">
+            <h2>Card Selection</h2>
+            <label for="card-type">Card Type:</label>
+            <select id="card-type" name="card-type">
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="amex">American Express</option>
+            </select>
+
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" required>
+
+            <label for="expiry-date">Expiry Date:</label>
+            <input type="text" id="expiry-date" name="expiry-date" required>
+
+            <h2>Theater Location</h2>
+            <select id="theater-location" name="theater-location">
+                <option value="theater1">Theater 1</option>
+                <option value="theater2">Theater 2</option>
+                <option value="theater3">Theater 3</option>
+                <!-- Add more options for other theater locations -->
+            </select>
+        </form>
+        <div class="buttons">
+            <a href="C:\Users\ASMIT BASNET\Desktop\movie booking\comfirm.html" class="btn">Confirm</a>
+        </div>
+    </section>
+</body>
+
+</html>
